@@ -14,9 +14,7 @@ class WeatherDataAdapter(private var weatherDataList: List<Weather>) :
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WeatherDataViewHolder {
         val binding = RowWeatherDataBinding
             .inflate(LayoutInflater.from(parent.context), parent, false)
-
         return WeatherDataViewHolder(binding)
-
     }
 
     override fun onBindViewHolder(holder: WeatherDataViewHolder, position: Int) {
@@ -48,7 +46,6 @@ class WeatherDataAdapter(private var weatherDataList: List<Weather>) :
 
     companion object {
         const val DATE_FORMAT = "MMMM dd yyyy"
-
     }
 }
 

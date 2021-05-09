@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="row_common_padding">16dp</dimen>
+    <dimen name="card_radius">6dp</dimen>
+    <dimen name="margin_normal">8dp</dimen>
+    <dimen name="margin_regular">12dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+
+
+    <!--text sizes-->
+   <dimen name="text_size_large">34sp</dimen>
+   <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="text_size_regular">16sp</dimen>
+
+
+</resources>

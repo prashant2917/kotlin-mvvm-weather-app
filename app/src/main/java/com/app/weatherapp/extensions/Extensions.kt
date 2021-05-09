@@ -25,7 +25,6 @@ fun Long.convertDateToFormat(pattern: String): String {
         val simpleDateFormat = SimpleDateFormat(pattern, Locale.getDefault())
         simpleDateFormat.format(Date(this * 1000)).toString()
     }
-
 }
 
 @RequiresApi(Build.VERSION_CODES.M)
